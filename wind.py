@@ -19,7 +19,7 @@ with open('moscow_nov_2015-2016.csv') as f_obj:
             wind_avg = int(row[17])
             current_date = datetime.strptime(row[0], '%Y-%m-%d')
         except ValueError:
-            pritn(current_date, 'missing_data')
+            print(current_date, 'missing_data')
         else:
             wind_maxs.append(wind_max)
             dates.append(current_date)
