@@ -1,0 +1,21 @@
+aq: Antarctica
+bo: Bolivia, Plurinational State of
+cd: Congo, the Democratic Republic of the
+cg: Congo
+eg: Egypt
+eh: Western Sahara
+gf: French Guiana
+gm: Gambia
+hk: Hong Kong
+ir: Iran, Islamic Republic of
+kg: Kyrgyzstan
+la: Lao People's Democratic Republic
+ly: Libyan Arab Jamahiriya
+md: Moldova, Republic of
+mo: Macao
+ps: Palestine, State of
+re: Reunion
+sh: Saint Helena, Ascension and Tristan da Cunha
+tw: Taiwan, Province of China
+tz: Tanzania, United Republic of
+va: Holy See (Vatican City State)
