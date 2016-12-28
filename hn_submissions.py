@@ -6,6 +6,8 @@ import requests
 
 from operator import itemgetter
 
+import pygal
+
 # Make an API call and store the response.
 url = 'https://hacker-news.firebaseio.com/v0/topstories.json'
 r = requests.get(url)
@@ -36,3 +38,8 @@ for submission_dict in submission_dicts:
     print("\nTitle:", submission_dict['title'])
     print("Discussion link:", submission_dict['link'])
     print("Comments:", submission_dict['comments'])
+
+#chart = pygal.Bar()
+#chart.title = 'Top 30 most commented articles'
+#chart.add('', submission_dicts)
+#chart.render_to_file('hn_submissions.svg')

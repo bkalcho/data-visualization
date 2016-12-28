@@ -1,6 +1,11 @@
 # Author: Bojan G. Kalicanin
 # Date: 28-Dec-2016
 # Identify the most starred Python projects on GitHub.
+#
+# 17-1. Other Languages: Modify the API call in python_repos.py so it
+# generates a chart showing the most popular projects in other
+# languages. Try languages such as JavaScript, Ruby, C, Java, Perl,
+# Haskell, and Go.
 
 import requests
 import pygal
@@ -8,6 +13,8 @@ from pygal.style import LightColorizedStyle as LCS, LightenStyle as LS
 
 # Make an API call and store the response.
 url = 'https://api.github.com/search/repositories?q=language:python&sort=stars'
+# Just change query language.
+#url = 'https://api.github.com/search/repositories?q=language:ruby&sort=stars'
 r = requests.get(url)
 print("Status code:", r.status_code)
 
